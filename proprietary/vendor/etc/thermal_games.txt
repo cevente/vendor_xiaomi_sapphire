@@ -1,0 +1,11 @@
+# Competitive and heavy titles (Shift thermals: -3°C)
+com.mobile.legends
+com.tencent.ig
+com.pubg.krmobile
+com.miHoYo.GenshinImpact
+com.activision.callofduty.shooter
+com.ea.games.simsmobile
+com.supercell.brawlstars
+com.supercell.clashroyale
+com.roblox.client
+com.netease.identityv
