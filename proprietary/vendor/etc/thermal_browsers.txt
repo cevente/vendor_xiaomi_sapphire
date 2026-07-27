@@ -1,8 +1,0 @@
-# Light UI and reading applications (Shift thermals: +4°C)
-com.android.chrome
-org.mozilla.firefox
-com.termux
-com.opera.browser
-com.microsoft.emmx
-com.vivaldi.browser
-com.UCMobile.intl
