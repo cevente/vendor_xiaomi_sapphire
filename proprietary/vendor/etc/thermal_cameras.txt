@@ -1,7 +1,0 @@
-# High ISP load applications (Shift thermals: +2°C)
-com.android.camera
-com.android.camera2
-com.miui.camera
-com.google.android.GoogleCamera
-com.oneplus.camera
-com.samsung.android.camera
