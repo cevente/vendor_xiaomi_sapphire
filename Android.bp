@@ -157,6 +157,26 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
+// Added: libqti_vndfwk_detect
+cc_prebuilt_library_shared {
+    name: "libqti_vndfwk_detect",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libqti_vndfwk_detect.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.AGMIPC@1.0-impl",
     owner: "xiaomi",
@@ -463,6 +483,56 @@ dex_import {
         "proprietary/product/framework/uimservicelibrary.jar",
     ],
     product_specific: true,
+}
+
+// Added: extphonelib
+dex_import {
+    name: "extphonelib",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/extphonelib.jar",
+    ],
+    system_ext_specific: true,
+}
+
+// Added: ims-ext-common
+dex_import {
+    name: "ims-ext-common",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/product/framework/ims-ext-common.jar",
+    ],
+    product_specific: true,
+}
+
+// Added: qti-telephony-common
+dex_import {
+    name: "qti-telephony-common",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/qti-telephony-common.jar",
+    ],
+    system_ext_specific: true,
+}
+
+// Added: qti-telephony-hidl-wrapper
+dex_import {
+    name: "qti-telephony-hidl-wrapper",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/qti-telephony-hidl-wrapper.jar",
+    ],
+    system_ext_specific: true,
+}
+
+// Added: qti-telephony-utils
+dex_import {
+    name: "qti-telephony-utils",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/qti-telephony-utils.jar",
+    ],
+    system_ext_specific: true,
 }
 
 dex_import {
